@@ -1,0 +1,7 @@
+{
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.stablePeek": false,
+    "testing.automaticallyOpenPeekViewDuringAutoRun": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+}

@@ -1,0 +1,232 @@
+.App {
+  background-color:#0A49AF;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 56px;
+  font-weight: 300;
+  margin: auto;
+  width: 850px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  color: #191919CC;
+
+}
+
+
+button
+ {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #2AB7FD;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.02rem;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+  background: #0A49AF;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.section1,.section2,.section3,.section4 {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+}
+
+.section1_content,
+.section2_content,
+.section3_content,
+.section4_content {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1196px;
+  margin: auto;
+  display:flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+  
+}
+ img {
+  object-fit: contain;
+  max-width: 800px;
+  width: auto;
+ }
+
+.section1 {
+height:651px;
+}
+
+.section2 {
+  height: 561px;
+  background-color:#fff ;
+  color: #0A49AF;
+}
+
+.section3 {
+  height: 561px;
+  background-color:#F6F7F8 ;
+  color: #0A49AF;
+}
+
+.section4 {
+  height: 561px;
+  background-color:#fff ;
+  color: #0A49AF;
+}
+
+.section1 h1 {
+  letter-spacing: -0.72px;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+  margin-top: 180px;
+  margin-bottom: 0;
+  
+}
+
+.section1 p {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight:100;
+  margin-bottom: 40px;
+  opacity: 75%;
+  color: #fff;
+}
+
+.section3 h2 {
+  font-size: 2rem;
+  line-height: 56px;
+  font-weight: 300;
+  letter-spacing: -0.72px;
+  margin-top: 115px;
+  
+  text-align: left;
+
+}
+
+.section3 p {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight:100;
+  
+  margin-bottom: 40px;
+  color: #191919CC;
+}
+
+
+.section4 h2 {
+  font-size: 2rem;
+  line-height: 56px;
+  font-weight: 300;
+  letter-spacing: -0.72px;
+  margin-top: 115px;
+  text-align: left;
+
+}
+
+.section4 p {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight:100;
+  margin-bottom: 40px;
+  color: #191919CC;
+ 
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+  .section1_content,
+  .section2_content,
+  .section3_content
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    overflow: hidden;
+    height:fit-content;
+    
+  }
+
+  .section4_content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
+    height:fit-content;
+    
+  }
+
+  .section2,.section3,.section4 {
+    display: block;
+    overflow: hidden;
+    height:fit-content
+  }
+  .section1 button{
+  width: 90%;
+  margin: auto 20px 80px;
+  
+  }
+ 
+   .section1 img{
+    display: block;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    overflow: hidden;
+    height:fit-content
+  }
+
+   p, h2,h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+  }
+.section2 h2{
+  width: 80%;
+}
+  img{
+    width: 80%;
+    margin: auto;
+  }
+
+
+  
+}
